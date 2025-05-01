@@ -1,0 +1,12 @@
+{
+    "name": "flask-nginx-dev",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "flask",
+    "workspaceFolder": "/app",
+    "extensions": ["ms-python.python", "ms-azuretools.vscode-docker"],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "remoteUser": "vscode"
+  }
+  
