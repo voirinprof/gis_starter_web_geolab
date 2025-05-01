@@ -2,7 +2,7 @@
     "name": "flask-nginx-dev",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "flask",
-    "workspaceFolder": "/app",
+    "workspaceFolder": "/workspaces/gis_starter_web_geolab",
     "extensions": ["ms-python.python", "ms-azuretools.vscode-docker"],
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"

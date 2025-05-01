@@ -9,8 +9,7 @@ services:
       - ./app:/app
     expose:
       - 5000
-    depends_on:
-      - nginx
+    
 
   nginx:
     image: nginx:alpine
